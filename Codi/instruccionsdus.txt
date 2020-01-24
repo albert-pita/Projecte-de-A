@@ -1,0 +1,14 @@
+INSTRUCCIONS D'ÚS:
+
+[El contingut de cada fitxer i les diferents funcions ja estan descrites al document principal]
+
+1- Compilar programa usant “make”. Això genera un executable anomenat “main.exe”.
+
+2- Executar "main.exe". Es va veient el progrés actual per la sortida estàndard. 
+   Aquest procés genera els fitxers de sortida amb les dades: “outputRBGX.txt” i “outputRGGX.txt” on X és el paràmetre n del model i també un 
+   fitxer de configuració "params.R".
+
+3- Obrir R i executar "script.R".
+   ES NECESSARI CONFIGURAR EL DIRECTORI ON ESTAN EL FITXERS DE DADES I CONFIGURACIÓ COM A DIRECTORI DE TREBALL DE R PER TAL QUE PUGUI TROBAR ELS FITXERS
+   Es crearan els fitxers corresponents a les gràfiques en format “.png” a la mateixa carpeta amb els noms corresponents a cada model i apartat:
+   "plotMX.png" on M és el model: "RBG" o "RGG" i X és l'apartat correcpenent: "c", "d" o "e". Pot haver-hi diverses gràfiques per un mateix apartat.
